@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app/.cxx/Debug/285q4z6d/arm64-v8a",
+  "command": "/Users/bishaldas/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/bishaldas/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/bishaldas/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DOpenCV_ffi_EXPORTS -I../../../../../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -std=c++17 -fno-limit-debug-info  -fPIC -o CMakeFiles/OpenCV_ffi.dir/Users/bishaldas/GIT_Projects/detect_contour_tlc/lib/opencv-cpp/main.cpp.o -c /Users/bishaldas/GIT_Projects/detect_contour_tlc/lib/opencv-cpp/main.cpp",
+  "file": "/Users/bishaldas/GIT_Projects/detect_contour_tlc/lib/opencv-cpp/main.cpp"
+}
+]

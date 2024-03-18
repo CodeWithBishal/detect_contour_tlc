@@ -1,0 +1,40 @@
+{
+  "buildFiles": [
+    "/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/bishaldas/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app/.cxx/Debug/285q4z6d/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/bishaldas/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app/.cxx/Debug/285q4z6d/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "OpenCV_ffi::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86",
+      "artifactName": "OpenCV_ffi",
+      "output": "/Users/bishaldas/GIT_Projects/detect_contour_tlc/build/app/intermediates/cxx/Debug/285q4z6d/obj/x86/libOpenCV_ffi.so",
+      "runtimeFiles": [
+        "/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/src/main/jniLibs/x86/libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/bishaldas/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/bishaldas/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,3 @@
+/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app/.cxx/Debug/285q4z6d/x86/CMakeFiles/rebuild_cache.dir
+/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app/.cxx/Debug/285q4z6d/x86/CMakeFiles/edit_cache.dir
+/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app/.cxx/Debug/285q4z6d/x86/CMakeFiles/OpenCV_ffi.dir

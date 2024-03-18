@@ -1,0 +1,20 @@
+                    -H/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/Users/bishaldas/Library/Android/sdk/ndk/23.1.7779620
+-DCMAKE_ANDROID_NDK=/Users/bishaldas/Library/Android/sdk/ndk/23.1.7779620
+-DCMAKE_TOOLCHAIN_FILE=/Users/bishaldas/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/bishaldas/Library/Android/sdk/cmake/3.18.1/bin/ninja
+-DCMAKE_CXX_FLAGS=-frtti -fexceptions -std=c++17
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/bishaldas/GIT_Projects/detect_contour_tlc/build/app/intermediates/cxx/Debug/285q4z6d/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/Users/bishaldas/GIT_Projects/detect_contour_tlc/build/app/intermediates/cxx/Debug/285q4z6d/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-B/Users/bishaldas/GIT_Projects/detect_contour_tlc/android/app/.cxx/Debug/285q4z6d/arm64-v8a
+-GNinja
+-DANDROID_STL=c++_shared
+                    Build command args: []
+                    Version: 2
