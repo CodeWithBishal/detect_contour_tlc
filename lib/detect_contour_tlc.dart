@@ -4,12 +4,12 @@ import 'dart:ffi';
 import 'dart:io';
 import 'package:ffi/ffi.dart';
 
-class Calculator {
+class CalculateTlcReading {
   static final dylib = Platform.isAndroid
       ? DynamicLibrary.open("libOpenCV_ffi.so")
       : DynamicLibrary.process();
 
-  static Future<File> calculateTlcReading({
+  static Future<File> fromPath({
     required String imageFile,
   }) async {
     final imagePath = imageFile.toNativeUtf8();
