@@ -1,5 +1,3 @@
-library detect_contour_tlc;
-
 import 'dart:ffi';
 import 'dart:io';
 import 'package:ffi/ffi.dart';
