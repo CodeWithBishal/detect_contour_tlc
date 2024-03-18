@@ -6,7 +6,9 @@ class CalculateTlcReading {
   static Future<File> fromPath({
     required String imageFile,
   }) async {
-    final dylib = DynamicLibrary.process();
+    final dylib = Platform.isAndroid
+        ? DynamicLibrary.open("libOpenCV_ffi.so")
+        : DynamicLibrary.process();
     final imagePath = imageFile.toNativeUtf8();
     final imageFfi = dylib.lookupFunction<Void Function(Pointer<Utf8>),
         void Function(Pointer<Utf8>)>('detect_contour_tlc');
